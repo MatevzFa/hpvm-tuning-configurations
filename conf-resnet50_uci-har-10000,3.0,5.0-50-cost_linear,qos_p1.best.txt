@@ -1,0 +1,84 @@
+0.0
++++++
+conf0 1.0 1.0 91.800003 0.0
+1 gpu conv fp32 11 add fp32 11 relu fp32 11 pool_max fp32 11
+2 gpu batchnorm fp32 11
+3 gpu conv fp32 11 add fp32 11
+4 gpu batchnorm fp32 11
+5 gpu relu fp32 11
+6 gpu conv fp32 11 add fp32 11
+7 gpu batchnorm fp32 11
+8 gpu relu fp32 11
+9 gpu conv fp32 11 add fp32 11
+10 gpu batchnorm fp32 11
+11 gpu conv fp32 11 add fp32 11
+12 gpu batchnorm fp32 11
+13 gpu add fp32 11
+14 gpu relu fp32 11
+15 gpu conv fp32 11 add fp32 11
+16 gpu batchnorm fp32 11
+17 gpu relu fp32 11
+18 gpu conv fp32 11 add fp32 11
+19 gpu batchnorm fp32 11
+20 gpu relu fp32 11
+21 gpu conv fp32 11 add fp32 11
+22 gpu batchnorm fp32 11
+23 gpu add fp32 11
+24 gpu relu fp32 11
+25 gpu conv fp32 11 add fp32 11
+26 gpu batchnorm fp32 11
+27 gpu relu fp32 11
+28 gpu conv fp32 11 add fp32 11
+29 gpu batchnorm fp32 11
+30 gpu relu fp32 11
+31 gpu conv fp32 11 add fp32 11
+32 gpu batchnorm fp32 11
+33 gpu add fp32 11
+34 gpu relu fp32 11
+35 gpu conv fp32 11 add fp32 11
+36 gpu batchnorm fp32 11
+37 gpu relu fp32 11
+38 gpu conv fp32 11 add fp32 11
+39 gpu batchnorm fp32 11
+40 gpu relu fp32 11
+41 gpu conv fp32 11 add fp32 11
+42 gpu batchnorm fp32 11
+43 gpu conv fp32 11 add fp32 11
+44 gpu batchnorm fp32 11
+45 gpu add fp32 11
+46 gpu relu fp32 11
+47 gpu conv fp32 11 add fp32 11
+48 gpu batchnorm fp32 11
+49 gpu relu fp32 11
+50 gpu conv fp32 11 add fp32 11
+51 gpu batchnorm fp32 11
+52 gpu relu fp32 11
+53 gpu conv fp32 11 add fp32 11
+54 gpu batchnorm fp32 11
+55 gpu add fp32 11
+56 gpu relu fp32 11
+57 gpu conv fp32 11 add fp32 11
+58 gpu batchnorm fp32 11
+59 gpu relu fp32 11
+60 gpu conv fp32 11 add fp32 11
+61 gpu batchnorm fp32 11
+62 gpu relu fp32 11
+63 gpu conv fp32 11 add fp32 11
+64 gpu batchnorm fp32 11
+65 gpu add fp32 11
+66 gpu relu fp32 11
+67 gpu conv fp32 11 add fp32 11
+68 gpu batchnorm fp32 11
+69 gpu relu fp32 11
+70 gpu conv fp32 11 add fp32 11
+71 gpu batchnorm fp32 11
+72 gpu relu fp32 11
+73 gpu conv fp32 11 add fp32 11
+74 gpu batchnorm fp32 11
+75 gpu conv fp32 11 add fp32 11
+76 gpu batchnorm fp32 11
+77 gpu add fp32 11
+78 gpu relu fp32 11
+79 gpu mul fp32 11 add fp32 11
+80 gpu softmax fp32 11
+-----
