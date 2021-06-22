@@ -1,6 +1,6 @@
 0.0
 +++++
-conf0 1.0 1.0 92.559998 0.0
+conf0 1.0 1.0 90.206894 0.0
 1 gpu conv fp32 11
 2 gpu batchnorm fp32 11
 3 gpu relu fp32 11
